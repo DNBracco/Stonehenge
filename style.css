@@ -32,7 +32,7 @@ nav {
     border-width: 2px 2px 0px;
     padding: 5px 10px 1px;
     background-color: orangered;
-    border-color: orange;
+    border-color: rgb(0, 89, 255);
     border-style: solid;
     border-radius: 10px 10px 0px 0px;
 }
