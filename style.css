@@ -1,0 +1,127 @@
+.logoImg{
+    width: 7vw;
+}
+
+*{
+    box-sizing: border-box;    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.nav{
+    display: flex;
+    width: 60vw;
+    align-items: flex-end;
+    justify-content: flex-start
+}
+
+.pestaniaContainer:hover{
+    background-color: rgb(255, 162, 0);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.pestaniaContainer{
+    border-width: 2px 2px 0px;
+    padding: 5px 10px 1px;
+    background-color: orangered;
+    border-color: orange;
+    border-style: solid;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pestania{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.piedrasContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorPiedra{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contenedorPiedra:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.piedraImgContainer{
+    position: relative;
+    width: 20vw;
+    height: 15vw;
+    margin: 20px;
+}
+
+.piedraImgContainer img{
+    position:absolute;
+    top:0;
+    width: 20vw;
+    height: 15vw;
+    z-index: 1;
+}
+
+.piedraImgContainer img:hover{
+    z-index: -1;
+}
+
+.gradImg{
+    width: 20vw;
+    height: 15vw;
+    position:absolute;
+    top: 0;
+    z-index: 0; 
+    background-image: linear-gradient(rgb(0,0,0,0),rgb(0,0,0,1));
+}
+
+.gradImg:hover{
+    z-index: 2;
+}
+
+.piedraTextContainer{
+    width: 80vw;
+    margin: 10px;
+    padding: 20px;
+}
+
+.contenedorPiedraVertical .piedraTextContainer{
+    width: 40vw
+}
+
+.contenedorPiedra:nth-child(3){
+    justify-content: space-evenly;
+}
+
+.contenedorPiedraVertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px
+}
+
+.iconoContactoContainer{
+    display: flex;
+    width: 10vw;
+    justify-content: space-around; 
+    font-size: 2em
+}
